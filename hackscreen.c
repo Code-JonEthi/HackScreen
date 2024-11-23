@@ -24,7 +24,7 @@ bool running;
 int main() {
 	initscr();
 	start_color();
-	timeout(100);
+	timeout(50);
 	cbreak();
 	noecho();
 	noqiflush();
